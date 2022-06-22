@@ -1,59 +1,57 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto ;
-    background-color:white;
-    width: 40%;
+    background-color:rgb(247, 250, 246);
+    width: 48%;
     float: left;
     margin-left: 1%;
     padding: 2%;
      }
-     hr{
-         width: 22%;
-        
-        border: 1px solid black;
-     }
-  
-  
 h3{
     color: rgb(0, 0, 0);
+    margin-left: 10px;
+
 }
-a{
-    color: black;
-}
+
 
 
 .card1{
-    background-color: rgba(243, 232, 234, 0.927);
+    background-color: rgba(198, 255, 184, 0.927);
+    width: 100%;
     border-radius: 7px;
     border: 0px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
+    margin: 10px;
     height: 42.7vh;  
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .card2{
-    background-color: rgb(212, 237, 220);
+    background-color: rgb(212, 238, 220);
+    width: 100%;
     border: 0px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
+    margin: 10px 20px;
     height: 42.7vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  
     
 }
 .card3{
-    background-color: rgb(212, 237, 220);
+    background-color: rgb(212, 238, 220);
+    width: 100%;
     border: 0px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
+    margin: 10px;
     height: 42.7vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
+   
 }
 .card4{
-    background-color: rgb(170, 241, 170);
+    background-color: rgb(167, 255, 167);
+    width: 100%;
     border-radius: 5px;
     border: 0px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
+    margin: 10px 20px;
     height: 42.7vh;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .main{
@@ -65,5 +63,19 @@ a{
 }
 .responsive{
     width: 100%;
-    height: 86vh;
+    height: 91vh;
+}
+a{
+    position: relative;
+    left: 10px;
+    color: black;
+    top: 50px;
+}
+p{
+    padding: 10px;
+    height: 40px;
+    line-height: 2;
+    color: rgb(47, 94, 47);
+
+    
 }
